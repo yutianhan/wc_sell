@@ -1,5 +1,8 @@
 package com.xmcc.common;
 
+import lombok.Getter;
+
+@Getter
 public enum PayEnums {
     WAIT(0,"等待支付"),
     FINISH(1,"支付完成"),

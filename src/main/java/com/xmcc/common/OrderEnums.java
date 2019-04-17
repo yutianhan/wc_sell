@@ -1,5 +1,8 @@
 package com.xmcc.common;
 
+import lombok.Getter;
+
+@Getter
 public enum OrderEnums {
     NEW(0,"新建订单"),
 
